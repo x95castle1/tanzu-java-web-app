@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: unicorn-app
-  description: Unicorn Java Web App
+  name: tanzu-java-web-app
+  description: Tanzu Java Web App
   tags:
     - app-accelerator
     - java
@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=unicorn-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
 spec:
   type: service
   lifecycle: experimental
